@@ -2,7 +2,7 @@
   "name": "Saim's Ecom Site",
   "version": "1.0.0",
   "description": "a e commerece site",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
