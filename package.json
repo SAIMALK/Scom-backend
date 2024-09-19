@@ -1,23 +1,32 @@
 {
-  "name": "Saim Ecom Site",
+  "name": "react",
   "version": "1.0.0",
-  "description": "a e commerece site",
-  "main": "server.js",
+  "description": "",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "saim ali",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
     "bcryptjs": "^2.4.3",
-    "colors": "^1.4.0",
-    "concurrently": "^8.2.2",
+    "body-parser": "^1.20.3",
+    "braces": "^3.0.3",
+    "buffer": "^6.0.3",
     "cookie-parser": "^1.4.6",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.4.3",
-    "multer": "^1.4.5-lts.1"
+    "mongoose": "^8.6.3",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
   }
 }
