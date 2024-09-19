@@ -15,7 +15,9 @@ const port = process.env.PORT || 5000;
 connectDB();
 
 const app = express();
-
+app.use(cors({
+  origin: 'https://scomm.netlify.app', // Replace with your frontend URL
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
