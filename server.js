@@ -17,8 +17,8 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  credentials: true,
   origin: 'https://scomm.netlify.app', // Replace with your frontend URL
+  credentials: true
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
